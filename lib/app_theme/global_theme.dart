@@ -11,13 +11,12 @@ class GlobalTheme {
     return ThemeData(
       // appBarTheme: AppBarTheme(
       //   color: colorScheme.primary,
-      //   titleTextStyle: TextStyle(
-      //     color: colorScheme.secondary,
-      //     fontSize: 22,
-      //     fontWeight: FontWeight.w700,
-      //   ),
+        // titleTextStyle: TextStyle(
+        //   color: colorScheme.secondary,
+        //   fontSize: 22,
+        //   fontWeight: FontWeight.w700,
+        // ),
       // ),
-      // iconTheme: IconThemeData(color: colorScheme.primary),
       colorScheme: colorScheme,
       canvasColor: colorScheme.background,
       scaffoldBackgroundColor: colorScheme.background,
@@ -28,19 +27,19 @@ class GlobalTheme {
 
   static const ColorScheme lightColorScheme = ColorScheme(
     primary: Color(0xFF298325),
-    onPrimary: Colors.black,
     secondary: Color(0xFFEFF3F3),
-    onSecondary: Color(0xFF322942),
     error: Colors.redAccent,
-    onError: Colors.white,
     background: Color(0xFFE6EBEB),
-    onBackground: Colors.white,
     surface: Color(0xFFFAFBFB),
+    onPrimary: Colors.white,
+    onSecondary: Color(0xFF322942),
+    onError: Colors.white,
+    onBackground: Colors.white,
     onSurface: Color(0xFF241E30),
     brightness: Brightness.light,
   );
   static const ColorScheme darkColorScheme = ColorScheme(
-    primary: Color(0xFFFF8383),
+    primary: Color(0xFF060721),
     secondary: Color(0xFF4D1F7C),
     background: Color(0xFF241E30),
     surface: Color(0xFF1F1929),
